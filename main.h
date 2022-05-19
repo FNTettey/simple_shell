@@ -73,15 +73,3 @@ list_s *pathlist(char *variable, list_s *head);
 void free_all(char **tokens, char *path, char *line, char *fullpath, int flag);
 void free_dp(char **array, unsigned int length);
 #endif /* MAIN_H */
-
-/* cd.c */
-void cd_dot(data_shell *datash);
-void cd_to(data_shell *datash);
-void cd_previous(data_shell *datash);
-void cd_to_home(data_shell *datash);
-
-/* cd_shell.c */
-int cd_shell(data_shell *datash);
-
-
-
